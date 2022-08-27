@@ -1,14 +1,15 @@
 # stock-analysis
 # An Analysis of a group of stock market tickers
-Performing analysis on kickstarter data to uncover trends
+Looking through stock data for 2 years to determine statistics.  Find a more efficient way to find the answers.
 ---
 
 Steve wants to do more research for his parents to include the entire stock market over the last few years. Here we will use the we used for a dozen stocks and build it out to work for thousands.  In the process I calculated how long it look expanding the original code, then refactored the code, making the time it processes less.
+
 ## Theater Outcomes using Launch Dates
 
-Using excel I organized the theater outcomes and time of launch using pivot tables in excel. See image below.
+I used VBA going through for loops for each ticket gathering the information and then putting in the table.   I ran it for 2017 and then 2018 data. See image below.
 
-![theater_outcomes_pivot](/theater_outcomes_pivot.png)
+![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
 
 The data above shows that there were successful outcomes for all launch dates. I then created a line graph to show the trend.
 
@@ -21,6 +22,9 @@ The blue line, successful outcomes is higher for every launch month.  The failur
 Using excel I organized the theater outcomes and goals using pivot tables in excel. See image below.
 
 ![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
+
+
+![Screen.Shot.2018](/Resources_VBA/Screen.Shot.2018.png)
 
 
 The data above shows that there were successful outcomes for modest goals, up to 20,000. The percentages show that there were more successful campaigns than those that failed. The percentage of successful outcomes became unpredictable as the goals increased.  I then created a line graph to show the trend.
