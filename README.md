@@ -20,7 +20,7 @@ The blue line, successful outcomes is higher for every launch month.  The failur
 
 Using excel I organized the theater outcomes and goals using pivot tables in excel. See image below.
 
-![VBA_Challenge_2017](/resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017](/Resources_VBA/VBA_Challenge_2017.png)
 
 
 The data above shows that there were successful outcomes for modest goals, up to 20,000. The percentages show that there were more successful campaigns than those that failed. The percentage of successful outcomes became unpredictable as the goals increased.  I then created a line graph to show the trend.
