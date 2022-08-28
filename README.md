@@ -36,15 +36,15 @@ The refactoring of the code used arrays to capture the data as it ran through ea
 
 Refactoring has advantages and disadvantages
 ### Advantages
-    - If the purpose of the code is time sensitive, refactoring is necessary to make the time it takes to execute the code as quick as possible
+    If the purpose of the code is time sensitive, refactoring is necessary to make the time it takes to execute the code as quick as possible
 ### Disadvantages
-    - Refactoring can be quite time consuming. Writing code without a time constraint can be done more quickly, without a lot of reworking of the code to       - make small changes in the time.
+    Refactoring can be quite time consuming. Writing code without a time constraint can be done more quickly, without a lot of reworking of the code to         make small changes in the time.
     
 Refactoring of the VBA code in this exercise has advantages and disadvantages
 ### Advantages
-    - As stated above, the data is stored for each ticker and then the analysis can be done for each ticker at the same time.
+    As stated above, the data is stored for each ticker and then the analysis can be done for each ticker at the same time.
 ### Disadvantages
-    - The amount of space this takes up, while executing, can be extensive.  Here we only used 12 tickers, but if someone wanted to run this for 100s, they     - would need a lot of short term storage space.
+    The amount of space this takes up, while executing, can be extensive.  Here we only used 12 tickers, but if someone wanted to run this for 100s, they       would need a lot of short term storage space.
 
 
 
