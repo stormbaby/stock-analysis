@@ -40,15 +40,11 @@ Refactoring has advantages and disadvantages
 ### Disadvantages
     - Refactoring can be quite time consuming. Writing code without a time constraint can be done more quickly, without a lot of reworking of the code to make small changes in the time.
     
-I concluded that if the goal was less than 20,000 there was a reasonable probably that the outcome would be successful.
-  
-Some limitations of this dataset would be
-   - The Launch date used didn't include the year.
-   - The data didn't show what the words successful and failed meant.  That data could have been broken up more to see gradients.
-
-Another possible table and/or graph that we could create would be 
-   -  A pie chart.  We could have the outcomes ( Successful, Failure etc) as pieces of the pie.
-  
+Refactoring of the VBA code in this exercise has advantages and disadvantages
+### Advantages
+    - As stated above, the data is stored for each ticker and then the analysis can be done for each ticker at the same time.
+### Disadvantages
+    - The amount of space this takes up, while executing, can be extensive.  Here we only used 12 tickers, but if someone wanted to run this for 100s, they would need a lot of short term storage space.
 
 
 
