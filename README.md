@@ -32,12 +32,14 @@ Also shown in the charts above are the execution times for each years calculatio
 
 The refactoring of the code used arrays to capture the data as it ran through each line of the data, rather than running through all rows to capture data data for each ticker.  the Capturing of data this way saved almost half the time as shown in the message of the running time.  The underlying calculations after refactoring is seen to be the same.
 
-## Results
+## Summary
 
-From the analysis I have arrived at two conclusions about the Theater Outcomes by Launch Date
-   - The success of a theater's outcome overall didn't depend on the month of the launch.
-   - Very few of the theater's outcomes failed.  
-
+Refactoring has advantages and disadvantages
+### Advantages
+    - If the purpose of the code is time sensitive, refactoring is necessary to make the time it takes to execute the code as quick as possible
+### Disadvantages
+    - Refactoring can be quite time consuming. Writing code without a time constraint can be done more quickly, without a lot of reworking of the code to make small changes in the time.
+    
 I concluded that if the goal was less than 20,000 there was a reasonable probably that the outcome would be successful.
   
 Some limitations of this dataset would be
