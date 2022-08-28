@@ -16,9 +16,11 @@ For the year 2017, using VBA I added the total volume for each ticker, for each 
 
 In the charts it shows that there were many tickers with positive returns in 2017 ( colored in green).  In 2018 most tickers had negative returns ( colored in red).
 
-## Execution times
+### Execution times
 
-The execution times were calulated by starting the timer at the beginning of the code, then stopped as the code ended. See image below.
+Also shown in the charts above are the execution times for each years calculations.  The times were calculated by starting the timer at the beginning of the code, then stopped as the code ended.
+
+## Refactoring the code
 
 ![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
 
