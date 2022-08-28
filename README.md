@@ -1,35 +1,31 @@
 # stock-analysis
 # An Analysis of a group of stock market tickers
-Looking through stock data for 2 years to determine statistics.  Find a more efficient way to find the answers.
+Performing analysis on stock ticker data to look at difference between 2017 and 2018 data. Refactor the underlying code to make the process quicker.
 ---
 
 Steve wants to do more research for his parents to include the entire stock market over the last few years. Here we will use the we used for a dozen stocks and build it out to work for thousands.  In the process I calculated how long it look expanding the original code, then refactored the code, making the time it processes less.
+## Comparing 2017 stock results vs 2018 results
 
-## Theater Outcomes using Launch Dates
-
-I used VBA going through for loops for each ticket gathering the information and then putting in the table.   I ran it for 2017 and then 2018 data. See image below.
-
-![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
-
-The data above shows that there were successful outcomes for all launch dates. I then created a line graph to show the trend.
-
-
-![Theater_Outcomes_vs_Launch](/resources/Theater_Outcomes_vs_Launch.png)
-The blue line, successful outcomes is higher for every launch month.  The failures line shows that there were less failures across the board.  The last line, canceled outcomes, is very few and even zero at times.
-
-## Theater Outcomes using Goals
-
-Using excel I organized the theater outcomes and goals using pivot tables in excel. See image below.
-
+For the year 2017, using VBA I added the total volume for each ticker, for each day. In addition, to find the returns for each ticket, I found the initial open ticker price and then the closing price to then calculate the annual return per ticker.  I completed the same analysis for 2018.  See images below.
+### 2017
 ![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
 
 
+### 2018
 ![Screen.Shot.2018](/Resources_VBA/Screen.Shot.2018.png)
 
+In the charts it shows that there were many tickers with positive returns in 2017 ( colored in green).  In 2018 most tickers had negative returns ( colored in red).
 
-The data above shows that there were successful outcomes for modest goals, up to 20,000. The percentages show that there were more successful campaigns than those that failed. The percentage of successful outcomes became unpredictable as the goals increased.  I then created a line graph to show the trend.
+## Execution times
 
-![Outcomes_vs_Goals](/resources/Outcomes_vs_Goals.png)
+The execution times were calulated by starting the timer at the beginning of the code, then stopped as the code ended. See image below.
+
+![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
+
+
+ 
+
+![Screen.Shot.2018](/Resources_VBA/Screen.Shot.2018.png)
 
 ## Results
 
