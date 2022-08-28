@@ -22,7 +22,7 @@ Also shown in the charts above are the execution times for each years calculatio
 
 ## Refactoring the code
 
-![Screen.Shot.2017](/Resources_VBA/Screen.Shot.2017.png)
+![Screen.Shot.Refactored.2017](/Resources_VBA/Screen.Shot.2017.png)
 
 
  
