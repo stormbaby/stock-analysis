@@ -22,12 +22,15 @@ Also shown in the charts above are the execution times for each years calculatio
 
 ## Refactoring the code
 
-![Screen.Shot.Refactored.2017](/Resources_VBA/Screen.Shot.2017.png)
+### 2017
+![Screen.Shot.2017.Refactored](/Resources_VBA/Screen.Shot.2017.Refactored.png)
 
 
- 
+ ### 2018
 
-![Screen.Shot.2018](/Resources_VBA/Screen.Shot.2018.png)
+![Screen.Shot.2018.Refactored](/Resources_VBA/Screen.Shot.2018.Refactored.png)
+
+The refactoring of the code used arrays to capture the data as it ran through each line of the data, rather than running through all rows to capture data data for each ticker.  the Capturing of data this way saved almost half the time as shown in the message of the running time.  The underlying calculations after refactoring is seen to be the same.
 
 ## Results
 
